@@ -1,0 +1,137 @@
+.navbar {
+  background-color: white;
+  padding: 0px 80px 15px 80px;
+}
+
+.tab {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 8px;
+  color: rgb(113, 113, 113);
+  padding: 10px;
+  min-width: 50px;
+}
+
+.tab:hover {
+  background: rgb(247, 247, 247);
+}
+
+.tabs {
+  /* padding: 0; */
+  margin: 8px 0px 15px 0px;
+}
+
+.toolbar {
+  padding: 0;
+}
+
+.menuItem {
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-height: 48px;
+  padding: 6px 16px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.menuItem:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.menu {
+  min-width: 100px;
+}
+
+.button {
+  border: 1px solid rgb(34, 34, 34);
+  margin: 6px;
+  border-radius: 30px;
+  padding: 4px 0px;
+  width: 100px;
+  background-color: rgb(247, 247, 247);
+  color: rgb(34, 34, 34);
+}
+
+.boxOne {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+}
+
+.boxTwo {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.mobileFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.buttonMobileFilterLeft {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  background-color: rgb(247, 247, 247);
+}
+
+.buttonMobileFilterRight {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  background-color: rgb(247, 247, 247);
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    padding: 0px 24px 15px 24px;
+  }
+
+  .boxOne {
+    width: 40%;
+  }
+  .boxTwo {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 0px 24px 15px 24px;
+  }
+
+  .toolbar {
+    display: block;
+  }
+
+  .boxOne {
+    width: 100%;
+  }
+}

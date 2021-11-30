@@ -1,0 +1,54 @@
+.imageContainer {
+  height: 300px;
+  width: auto;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  position: relative;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.container {
+}
+
+.topBar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #222222;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.price {
+  font-size: 0.9rem;
+  color: #222222;
+  text-decoration: underline;
+}
+
+.category {
+  font-size: 0.7rem;
+  color: #484848;
+}
+
+.rating {
+  font-size: 0.7rem;
+  color: #484848;
+}
+
+.productDetails {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

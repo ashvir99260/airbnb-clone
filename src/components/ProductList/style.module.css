@@ -1,0 +1,22 @@
+.container {
+  padding: 0 80px;
+}
+
+.loaderDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    padding: 0 24px;
+  }
+}

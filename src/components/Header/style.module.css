@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  height: 80px;
+}
+
+.headerIcon {
+  object-fit: contain;
+  height: 2rem;
+  width: 2rem;
+}
+
+.icon {
+  object-fit: contain;
+  height: 6rem;
+  width: 6rem;
+}
+
+.headerLeft {
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.becomeHostButton {
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+.becomeHostButton:hover {
+  background: #f7f7f7;
+  border-radius: 20px;
+  height: 42px;
+}
+
+.menuButton {
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+}
+
+.toolbar {
+  padding: 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .headerLeft {
+    padding-left: 24px;
+  }
+
+  .headerRight {
+    padding-right: 24px;
+  }
+}

@@ -24,6 +24,9 @@
         "quotes": [2, "single", "avoid-escape"],
         "react/react-in-jsx-scope": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "react/function-component-definition": [0]
+        "react/function-component-definition": [0],
+        "react/jsx-props-no-spreading": "off",
+        "no-unused-vars": 1,
+        "import/prefer-default-export": 0
     }
 }
